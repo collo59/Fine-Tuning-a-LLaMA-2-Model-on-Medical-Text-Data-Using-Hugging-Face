@@ -1,0 +1,27 @@
+# Python artifacts
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Large model artifacts (do NOT commit)
+results/
+checkpoint/
+*.ckpt
+*.bin
+*.safetensors
+pytorch_model.bin
+pytorch_model.safetensors
+model-*.safetensors
+
+# local logs
+wandb/
+*.log
+
+# Editor
+.vscode/
+.DS_Store
