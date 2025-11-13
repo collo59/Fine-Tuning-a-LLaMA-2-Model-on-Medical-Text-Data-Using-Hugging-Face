@@ -40,6 +40,13 @@ The model used is [`aboonaji/llama2finetune-v2`](https://huggingface.co/aboonaji
 5. **Evaluation / Chat** – Interact with the fine-tuned model using sample prompts.
 
 ---
+## Optional
+
+If you ever want to reproduce the same environment locally or in another Colab:
+```
+pip install -r requirements.txt
+```
+---
 
 ## Example Interaction
 
